@@ -5,7 +5,7 @@ public class GradeCalculator {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);  // ← create the scanner
+       try(Scanner scanner = new Scanner(System.in)){  // ← create the scanner
 
         System.out.print("Enter your score: ");     // ← prompt the user
         int score = scanner.nextInt();          // ← capture what they type
@@ -21,6 +21,7 @@ public class GradeCalculator {
         else {
             System.out.println("Your Grade is: F");
         }
-        scanner.close();  // ← always close when done
+    }
+        //scanner.close();  // ← always close when done
     }
 }
