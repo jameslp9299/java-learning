@@ -7,7 +7,7 @@ public class IntroCard {
         String city = "Denver";
         String funFact = "I make fire beats.";
 
-        System.out.println("Hi, I'm " + name + ", I'm " + age + " years old, I live in " + City + ", and a fun fact about me is " + funFact);
+        System.out.println("Hi, I'm " + name + ", I'm " + age + " years old, I live in " + city + ", and a fun fact about me is " + funFact);
 
         
     }
